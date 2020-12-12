@@ -22,7 +22,7 @@
   * Parametrisieren
   * ~~Aliasnamen (Zuerst das System verstehen und wie Deployment funktioniert).~~
   * ...
-- Welcher User? Welche Policies?
-  * AGI User hat Lambda Access
+- Welcher User im Web Service? Welche Policies?
+  * AGI User darf Lambda-Funktionen ausführen
 - Lambda Logging? Context?
 - Error Handling
