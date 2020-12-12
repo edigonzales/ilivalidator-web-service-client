@@ -4,6 +4,8 @@ plugins {
     id 'java'
 }
 
+apply from: "$rootDir/gradle/versioning.gradle"    
+
 group = 'ch.so.agi.ilivalidator'
 sourceCompatibility = '11'
 
