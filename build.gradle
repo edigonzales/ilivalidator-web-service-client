@@ -23,7 +23,8 @@ dependencies {
     implementation 'ch.interlis:ilivalidator:1.11.9-SNAPSHOT'
     implementation platform('software.amazon.awssdk:bom:2.15.33')
     implementation 'software.amazon.awssdk:s3'
-    
+    implementation 'software.amazon.awssdk:lambda'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

@@ -3,8 +3,8 @@
 - ENV Variablen müssen gesetzt sein: -e AWS_ACCESS_KEY_ID=XXXXXXXXXXXXX -e AWS_SECRET_ACCESS_KEY=YYYYYYYYYYYY -e AWS_REGION=eu-central-1
 
 ## todo
-- Lambda in Gradle build integrieren.
-- Lambda Qualifiers
+- ~~Lambda in Gradle build integrieren.~~ won't fix
+- ~~Lambda Qualifiers~~
 - ~~Lambda max / reserved concurrency~~
 - ~~Ilivalidator~~
 - ~~Ilivalidator extension functions (à la GRETL?)~~
@@ -17,9 +17,12 @@
   * ili_cache directory (env oder im Code setzen -> siehe Blog)
   * ili und toml
 - AWS Parameter Store (v.a. für Spring Boot Teil)
-- Cloudwatch logs aufräumen? kosten?
+- ~~Cloudwatch logs aufräumen?~~ Kosten?
 - Cloudformation
   * Parametrisieren
-  * Aliasnamen (Zuerst das System verstehen und wie Deployment funktioniert).
+  * ~~Aliasnamen (Zuerst das System verstehen und wie Deployment funktioniert).~~
   * ...
 - Welcher User? Welche Policies?
+  * AGI User hat Lambda Access
+- Lambda Logging? Context?
+- Error Handling
