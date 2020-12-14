@@ -26,3 +26,4 @@
   * AGI User darf Lambda-Funktionen ausführen
 - Lambda Logging? Context?
 - Error Handling
+- sam scheint einfacher als Cloudformation, inkl. API-Gateway (falls benötigte). Siehe Quarkus.
